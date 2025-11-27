@@ -1,0 +1,142 @@
+/* color palette from <https://github.com/vuejs/theme> */
+@import 'tailwindcss';
+
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600;900&display=swap');
+
+:root {
+  --vt-c-white: #ffffff;
+  --vt-c-white-soft: #f8f8f8;
+  --vt-c-white-mute: #f2f2f2;
+
+  --vt-c-black: #181818;
+  --vt-c-black-soft: #222222;
+  --vt-c-black-mute: #282828;
+  --vt-c-red: #cd001b;
+  --vt-c-red-dark: #a30015;
+  --vt-c-red-light: #f99faa;
+
+  --vt-c-indigo: #2c3e50;
+
+  --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
+  --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
+  --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
+  --vt-c-divider-dark-2: rgba(84, 84, 84, 0.48);
+
+  --vt-c-text-light-1: var(--vt-c-indigo);
+  --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
+  --vt-c-text-dark-1: var(--vt-c-black);
+  --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+
+  --font-secondary: 'Bebas Neue', 'Impact', Arial, sans-serif;
+  --font-primary: 'Bebas Neue Light', 'Impact', Arial, sans-serif;
+ --font-tertiary: 'Poppins', Arial, sans-serif;
+}
+
+/* semantic color variables for this project */
+:root {
+  --color-background: var(--vt-c-white);
+  --color-background-soft: var(--vt-c-white-soft);
+  --color-background-mute: var(--vt-c-white-mute);
+
+  --color-border: var(--vt-c-divider-light-2);
+  --color-border-hover: var(--vt-c-divider-light-1);
+
+  --color-heading: var(--vt-c-text-dark-1);
+  --color-text: var(--vt-c-text-dark-1);
+
+  --section-gap: 160px;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-background: var(--vt-c-black);
+    --color-background-soft: var(--vt-c-black-soft);
+    --color-background-mute: var(--vt-c-black-mute);
+
+    --color-border: var(--vt-c-divider-dark-2);
+    --color-border-hover: var(--vt-c-divider-dark-1);
+
+    --color-heading: var(--vt-c-text-dark-1);
+    --color-text: var(--vt-c-text-dark-2);
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background-soft);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family: var(--font-primary);
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  font-family: var(--font-tertiary);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+h1,
+h2,
+h3 {
+  font-family: var(--font-secondary);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 2.5rem;
+  letter-spacing: 0.05em;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+
+a {
+  font-family: 'Bebas Neue Light', 'Impact', 'Poppins', Arial, sans-serif;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.btn {
+  font-family: var(--font-secondary);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+  :root {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}

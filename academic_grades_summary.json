@@ -1,0 +1,104 @@
+[
+  { "year": "2023", "subject": "Arabic", "grade": "17.17", "credits": "1" },
+  { "year": "2023", "subject": "French", "grade": "15.33", "credits": "2" },
+  { "year": "2023", "subject": "Technical English", "grade": "19.63", "credits": "2" },
+  { "year": "2023", "subject": "Behavioral and social skills", "grade": "17.50", "credits": "2" },
+  {
+    "year": "2023",
+    "subject": "Entrepreneurship and innovation program (EIP)-1",
+    "grade": "16.19",
+    "credits": "1"
+  },
+  {
+    "year": "2023",
+    "subject": "Advanced digital culture and techniques",
+    "grade": "17.00",
+    "credits": "1"
+  },
+  {
+    "year": "2023",
+    "subject": "Digital development careers and training",
+    "grade": "17.50",
+    "credits": "1"
+  },
+  { "year": "2023", "subject": "Algorithmic foundations", "grade": "12.56", "credits": "2" },
+  { "year": "2023", "subject": "Object-oriented programming", "grade": "17.56", "credits": "2" },
+  { "year": "2023", "subject": "Static websites", "grade": "19.94", "credits": "3" },
+  { "year": "2023", "subject": "JavaScript Programming", "grade": "15.67", "credits": "3" },
+  { "year": "2023", "subject": "Databases manipulation", "grade": "18.56", "credits": "2" },
+  { "year": "2023", "subject": "Dynamic websites", "grade": "17.83", "credits": "3" },
+  {
+    "year": "2023",
+    "subject": "Security of information systems",
+    "grade": "17.67",
+    "credits": "1"
+  },
+  { "year": "2023", "subject": "Discipline", "grade": "20.00", "credits": "1" },
+  { "year": "2024", "subject": "French", "grade": "16.22", "credits": "2" },
+  { "year": "2024", "subject": "Technical English", "grade": "19.42", "credits": "2" },
+  { "year": "2024", "subject": "Behavioral skills", "grade": "17.08", "credits": "2" },
+  {
+    "year": "2024",
+    "subject": "Advanced digital culture and techniques",
+    "grade": "14.33",
+    "credits": "1"
+  },
+  { "year": "2024", "subject": "Preparing a web project", "grade": "17.00", "credits": "1" },
+  { "year": "2024", "subject": "Agile approach", "grade": "16.56", "credits": "3" },
+  { "year": "2024", "subject": "Data management", "grade": "18.44", "credits": "2" },
+  { "year": "2024", "subject": "Front-end development", "grade": "16.78", "credits": "3" },
+  { "year": "2024", "subject": "Back-end development", "grade": "19.33", "credits": "3" },
+  {
+    "year": "2024",
+    "subject": "Building a cloud-native application",
+    "grade": "15.00",
+    "credits": "2"
+  },
+  { "year": "2024", "subject": "Synthesis project", "grade": "17.67", "credits": "2" },
+  { "year": "2024", "subject": "Integrating the workplace", "grade": "16.00", "credits": "2" },
+  { "year": "2024", "subject": "Discipline", "grade": "20.00", "credits": "1" },
+
+  { "year": "2025", "subject": "Software Engineering", "grade": "6.30", "credits": "1" },
+  { "year": "2025", "subject": "Databases (PL/SQL)", "grade": "20.00", "credits": "1" },
+  { "year": "2025", "subject": "UNIX system Administration", "grade": "15.00", "credits": "1" },
+  { "year": "2025", "subject": "Windows Administration", "grade": "10.00", "credits": "1" },
+  {
+    "year": "2025",
+    "subject": "UML: Analysis and Object Oriented I Design",
+    "grade": "15.38",
+    "credits": "1"
+  },
+  {
+    "year": "2025",
+    "subject": "Object-Oriented Programming/Java I",
+    "grade": "15.00",
+    "credits": "1"
+  },
+  { "year": "2025", "subject": "TCP/IP", "grade": "11.00", "credits": "1" },
+  { "year": "2025", "subject": "Network Programming", "grade": "18.00", "credits": "1" },
+  { "year": "2025", "subject": "Data analysis", "grade": "11.00", "credits": "1" },
+  { "year": "2025", "subject": "Communication in English V", "grade": "14.00", "credits": "1" },
+  { "year": "2025", "subject": "Communication in French V", "grade": "16.00", "credits": "1" },
+  { "year": "2025", "subject": "Artificial Intelligence", "grade": "13.00", "credits": "1" },
+  { "year": "2025", "subject": "Databases Administration", "grade": "16.00", "credits": "1" },
+  {
+    "year": "2025",
+    "subject": "UML: Analysis and Object Oriented II Design",
+    "grade": "13.00",
+    "credits": "1"
+  },
+  {
+    "year": "2025",
+    "subject": "Object-Oriented Programming/Java II",
+    "grade": "16.00",
+    "credits": "1"
+  },
+  {
+    "year": "2025",
+    "subject": "Object-Oriented Programming in Python",
+    "grade": "14.75",
+    "credits": "1"
+  },
+  { "year": "2025", "subject": "Python for Data Science", "grade": "15.00", "credits": "1" },
+  { "year": "2025", "subject": "End-of-cycle Project", "grade": "18.50", "credits": "1" }
+]
