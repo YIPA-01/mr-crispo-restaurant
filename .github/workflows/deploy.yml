@@ -28,6 +28,18 @@ jobs:
       
       - name: Build
         run: npm run build
+        env:
+          VITE_BASE_URL: /mr-crispo-restaurant/
+      
+      - name: Debug - List dist contents
+        run: |
+          echo "Listing dist directory contents:"
+          ls -R dist
+      
+      - name: Debug - Check index.html
+        run: |
+          echo "Contents of index.html:"
+          cat dist/index.html
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
