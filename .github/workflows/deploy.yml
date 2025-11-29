@@ -16,31 +16,31 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      
+
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'npm'
-      
+
       - name: Install dependencies
-        run: npm ci
-      
+        run: npm install
+
       - name: Build
         run: npm run build
         env:
           VITE_BASE_URL: /mr-crispo-restaurant/
-      
+
       - name: Debug - List dist contents
         run: |
           echo "Listing dist directory contents:"
           ls -R dist
-      
+
       - name: Debug - Check index.html
         run: |
           echo "Contents of index.html:"
           cat dist/index.html
-      
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
